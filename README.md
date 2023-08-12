@@ -1,7 +1,5 @@
 ## Product Searcher
 
-Proyecto de la carrera "Software Developer" de APX School.
+Proyecto: Buscador de productos basado en React, haciendo uso de hooks, Recoil, y css mediante modules.
 
-:computer: [App demo](https://pet-finder-app-muig.onrender.com)
-
-:scroll: [API Docs](https://documenter.getpostman.com/view/25956902/2s9XxsWcWk)
+:computer: [App demo](https://product-searcher.onrender.com)
