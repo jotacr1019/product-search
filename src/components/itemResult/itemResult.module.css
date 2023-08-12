@@ -1,0 +1,135 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    min-width: 375px;
+    min-height: 86vh;
+    padding: 20px 30px;
+    background-color: #f5da59;
+}
+
+@media(min-width: 769px) {
+    .root {
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+@media(min-width: 769px) {
+    .root {
+        padding: 20px 35px 20px 60px;
+        justify-content: space-between;
+    }
+}
+
+@media(min-width: 1024px) {
+    .root {
+        padding: 20px 35px 20px 140px;
+    }
+}
+
+.slide {
+    width: 295px;
+    height: 42vh;
+}
+
+@media(min-width: 769px) {
+    .slide {
+        width: 55%;
+        height: 60vh;
+        align-self: center;
+    }
+}
+
+@media(min-width: 1024px) {
+    .slide {
+        width: 570px;
+        height: 80vh;
+    }
+}
+
+.container {
+    width: 100%;
+    max-width: 465px;
+    padding: 8px;
+    border-radius: 6px;
+    box-shadow: rgba(4, 18, 42, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+
+@media(min-width:769px) {
+    .container {
+        display: grid;
+        grid-template-rows: 8% 1fr 12% 35%;
+        gap: 4px;
+        min-height: 64vh;
+        max-height: 68vh;
+        max-width: 402px;
+        padding: 8px 10px 12px;
+    }
+}
+
+@media(min-width:769px) {
+    .title {
+        margin-top: -12px;
+        font-size: 2rem !important;
+    }
+}
+
+.priceAndLocationContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 6px;
+    padding-right: 14px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+
+@media(min-width:769px) {
+    .priceAndLocationContainer {
+        margin-top: 15px;
+    }
+}
+
+.span {
+    color: rgba(0, 0, 0, .55);
+}
+
+@media(min-width:769px) {
+    .span {
+        font-size: 1.1rem;
+    }
+}
+
+.priceContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    font-size: 1.5rem;
+}
+
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    background-color: rgba(0, 0, 0, .04);
+}
+
+@media(min-width:769px) {
+    .infoContainer {
+        margin-top: 44px;
+        gap: 4px;
+    }
+}
+
+@media(min-width:1024px) {
+    .infoContainer {
+        margin-top: 42px;
+    }
+}

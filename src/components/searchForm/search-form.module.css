@@ -1,0 +1,10 @@
+.root {
+    width: 100%;
+    min-width: 375px;
+    height: 14vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #343d46;
+}

@@ -1,0 +1,34 @@
+.textField {
+    display: flex;
+    flex-direction: column;
+    min-width: 240px;
+    max-width: 300px;
+    margin: 10px;
+}
+
+@media(min-width: 769px) {
+    .textField {
+        min-width: 350px;
+    }
+}
+
+.input {
+    width: 100%;
+    height: 45px;
+    font-size: 1rem;
+    padding: 0px 2px 0px 16px;
+    float: left;
+    background-color: #2b303b;
+    color: #8497a9;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+@media(min-width: 769px) {
+    .input {
+        height: 55px;
+        font-size: 1.3rem;
+    }
+}

@@ -1,0 +1,23 @@
+.button {
+    margin: 4px 8px;
+    height: 43px;
+    padding: 0px 14px;
+    font-size: 1rem;
+    color: #1a2732;
+    background-color: #64a2c9;
+    border: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #95bbd3;
+}
+
+@media(min-width: 769px) {
+    .button {
+        height: 53px;
+        padding: 0px 18px;
+        font-size: 1.3rem;
+    }
+}
