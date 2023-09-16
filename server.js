@@ -10,8 +10,10 @@ app.use(history());
 // app.use(express.static(path.resolve(__dirname, "dist")));
 
 app.get("*", function(req, res) {
-    res.status(200).sendFile(path.resolve(__dirname, "index.html"));
+    res.status(200).sendFile(path.resolve(__dirname, "/index.html"));
 });
+
+console.log(__dirname);
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
