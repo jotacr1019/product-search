@@ -1,6 +1,7 @@
 const path = require("path");
 const dev = process.env.NODE_ENV == "development";
 const liveServer = require("live-server");
+const Dotenv = require("dotenv-webpack");
 
 if (dev) {
     liveServer.start({
@@ -40,4 +41,9 @@ module.exports = {
         path: path.resolve(__dirname, "dist"),
         filename: "bundle.js",
     },
+    plugins: [
+        new Dotenv({
+            path: "./.env",
+        }),
+    ],
 };
