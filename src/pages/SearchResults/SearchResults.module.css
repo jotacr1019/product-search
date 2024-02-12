@@ -1,6 +1,7 @@
 .root {
     min-width: 375px;
     background-color: #f5da59;
+    min-height: 86vh;
 }
 
 .ul {

@@ -35,7 +35,7 @@ export function SearchResults (){
                             </div>
                             <div className={css.divInfo}>
                                 <MyTitle level={screenWidth < 615 ? 3 : screenWidth >= 1024 ? 1 : adjustedLevel} text={res.title} className={css.title}></MyTitle>
-                                <span className={css.span}>{"Ubicación: " + (res.seller_address.city? res.seller_address.city.name: "Sin especificar")}</span>
+                                <span className={css.span}>{"Precio: " + (res.currency_id === "CRC"? "₡": "$") + (res.price? res.price: "Sin especificar")}</span>
                                 <Link className={css.link} to={"/item/" + res.id}>
                                     <MyButton>Ver detalles</MyButton>
                                 </Link>
